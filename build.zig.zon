@@ -1,12 +1,12 @@
 .{
     .name = "zaptest",
-    .version = "0.1.10-pre",
+    .version = "0.1.14-pre",
 
     .dependencies = .{
-        // zap v0.1.10-pre + later commits
+        // zap v0.1.14-pre
         .zap = .{
-            .url = "https://github.com/zigzap/zap/archive/685e98efaebfc3305be3ab395125647e1d399a0c.tar.gz",
-            .hash = "1220e4b0c69581d757b27e44f681d1fab196dbd3720411c0376b6980de3e3d3c4446",
+            .url = "https://github.com/zigzap/zap/archive/refs/tags/v0.1.14-pre.tar.gz",
+            .hash = "122067d12bc7abb93f7ce623f61b94cadfdb180cef12da6559d092e6b374202acda3",
         },
     },
 }
